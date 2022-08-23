@@ -1,0 +1,26 @@
+
+In Seleuim there are 3 waits, which play very important rule for finding the web elements. 
+
+	Thread.Sleep(10000);
+
+
+  1. Implicit wait : Implicite wait is command, when called, it will wait for the visibility of all elements for the web page. 
+  
+    
+  
+  
+  
+  2.Explicit wait: Explicit wait is command, when called, it will wait for the visibility of specific elements or specific condition. 
+  
+  
+  
+  
+  
+  3. Fluent wait:  every  3 seconds refresh the elements till 30 seconds unless the specific element is visible. 
+  
+  
+  3 * 30 = 10 times 
+  
+  
+
+
