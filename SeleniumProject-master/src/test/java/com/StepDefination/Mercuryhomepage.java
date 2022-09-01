@@ -2,6 +2,7 @@ package com.StepDefination;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 import javax.sql.rowset.WebRowSet;
@@ -391,13 +392,40 @@ public class Mercuryhomepage {
 		}
 
 		return handle;
+		
+		
+			
+		}
 
-	}
+	
 
 	public static void captureMultipleScreenShots(WebDriver driver, String name) throws Exception {
 
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		Files.copy(srcFile, new File("screenshots/"+System.currentTimeMillis()+ "____"+name+".png"));
 	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Mercuryhomepage.findElement();
+		
+	}
 
+	public static void findElement () { 
+		
+		HashMap<Object, String> values = new HashMap<Object, String>();
+		
+		
+		values.put("Rasoly", "QA_Manager");
+		
+		
+		
+		System.out.println(values.get("Rasoly").toString());
+		
+		System.out.println("Hashmap Values "+values);
+		
+		
+	}
 }

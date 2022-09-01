@@ -48,6 +48,8 @@ Scenario: Validation of main buttons for Mercury web page
 		
 		
 		
+		
+		
 	
 	
 	
