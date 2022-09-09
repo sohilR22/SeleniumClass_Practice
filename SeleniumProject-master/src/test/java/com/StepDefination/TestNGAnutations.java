@@ -10,6 +10,7 @@ public class TestNGAnutations {
 	public void beforMethod() {
 		
 		System.out.println("print this statment for me");
+		System.out.println("hello world this is me ");
 		
 		
 
