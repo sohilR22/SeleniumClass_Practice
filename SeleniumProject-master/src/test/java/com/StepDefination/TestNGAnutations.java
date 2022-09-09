@@ -9,6 +9,8 @@ public class TestNGAnutations {
 	@Test (groups = {"regrissinoTest", "SmokeTest"})
 	public void beforMethod() {
 		
+		System.out.println("print this statment for me");
+		
 		
 
 	}
